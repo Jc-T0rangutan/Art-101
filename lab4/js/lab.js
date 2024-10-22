@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Zip-Zap-Zop
+// JC Toringan <Jtoringa@ucsc.edu>
+// October 17 2024
 
 // Constants
 
@@ -19,3 +19,9 @@ function main() {
 
 // let's get this party started
 main();
+//Gather a group of user
+  //Designate a user to initiate game by declaring Zip directing another user to respond with Zap
+    //Secondary user continues chain effect by directing another user to respond with Zop
+  //Restart Circuit by having the third user direct a fourth user by restarting the cycle with Zip
+  //Repeat until Satisfaction
+
