@@ -1,21 +1,25 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: JC Toringan
+// Date: 31 October 2024
 
-// Constants
+//
 
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+function isCrazy(x){
+    return (x % 2 == 0);
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+// test function
+console.log("Is 1 Crazy?", isCrazy(1) );
+console.log("Is 40000?", isCrazy(40000) );
 
-// let's get this party started
-main();
+array = [100, 81, 4, 16, 42, 144, 100000]
+console.log("My array", array);
+var result = array.map(isCrazy)
+// should return [true, false, true, true, true, rture, ture]
+console.log("Test of evenness of array:", result);
+
+var result = array.map(function(x){
+    return x ** 0.5;
+})
+// should return [10, 9, 2, 4, 6.48074069840786, 12, 316.22776601683796]
+console.log("Squareroot of array:", result);
