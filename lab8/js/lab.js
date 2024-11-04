@@ -15,7 +15,7 @@ console.log("Is 40000?", isCrazy(40000) );
 array = [100, 81, 4, 16, 42, 144, 100000]
 console.log("My array", array);
 var result = array.map(isCrazy)
-// should return [true, false, true, true, true, rture, ture]
+// should return [true, false, true, true, true, ture, ture]
 console.log("Test of evenness of array:", result);
 
 var result = array.map(function(x){
