@@ -21,7 +21,7 @@ function generateRandomText() {
   }
 
   // click listener for button
-$("#make-convo").click(function(){
+$("make-convo").click(function(){
 });
 
 // get new fake dialogue
