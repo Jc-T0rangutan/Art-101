@@ -9,9 +9,9 @@ Requiremnets: JQuery must be loaded for this script to work.
 
 console.log("JavaScript loaded!");
 
-function sortingHatLength(str) {
-  let len = str.length;
-  let mod= len % 4;
+function sortingHat(str) {
+  len = str.length;
+  mod= len % 4;
   if (mod == 0) {
     return "Gryffindor"
   }
